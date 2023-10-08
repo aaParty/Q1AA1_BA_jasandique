@@ -172,20 +172,42 @@
 {
     margin: 10px;
     padding: 0px;
+    background-color: rgb(53, 11, 92);
     border: 2px solid black;
     border-radius: 5px;
     position: relative;
     float: left;
 }
 
+#lphotos img
+{
+    opacity: 5%;
+}
+
+#lphotos img:hover
+{
+    opacity: 100%;
+}
+
 #rphotos
 {
     margin: 10px;
     padding: 0px;
+    background-color: rgb(53, 11, 92);
     border: 2px solid black;
     border-radius: 5px;
     position: relative;
     float: right;
+}
+
+#rphotos img
+{
+    opacity: 5%;
+}
+
+#rphotos img:hover
+{
+    opacity: 100%;
 }
 
 .footer
@@ -222,8 +244,9 @@
     display: inline;
 }
 
-img {
+img
+{
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
